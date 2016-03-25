@@ -1,0 +1,140 @@
+/*
+  The 960 Grid Grid Grid System 
+  Learn more ~ http://960gridgridgrid.me/
+  Created by Jen Simmons
+
+  Licensed under GPL and MIT.
+*/
+
+/* Let's Define the Space Where Our Grid Lives
+----------------------------------------------------------------------------------------------------*/
+main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+/* Let's Define the Grid
+----------------------------------------------------------------------------------------------------*/
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 20px;
+}
+
+/* Let's Define Classes that will Specify Where Content Should Start
+----------------------------------------------------------------------------------------------------*/
+.grid-column-start-1 {
+  grid-column-start: 1;
+}
+.grid-column-start-2 {
+  grid-column-start: 2;
+}
+.grid-column-start-3 {
+  grid-column-start: 3;
+}
+.grid-column-start-4 {
+  grid-column-start: 4;
+}
+.grid-column-start-5 {
+  grid-column-start: 5;
+}
+.grid-column-start-6 {
+  grid-column-start: 6;
+}
+.grid-column-start-7 {
+  grid-column-start: 7;
+}
+.grid-column-start-8 {
+  grid-column-start: 8;
+}
+.grid-column-start-9 {
+  grid-column-start: 9;
+}
+.grid-column-start-10 {
+  grid-column-start: 10;
+}
+.grid-column-start-11 {
+  grid-column-start: 11;
+}
+.grid-column-start-12 {
+  grid-column-start: 12;
+}
+
+/* Let's Define Classes that will Specify Where Content Should End
+----------------------------------------------------------------------------------------------------*/
+.grid-column-end-1 {
+  grid-column-end: 1;
+}
+.grid-column-end-2 {
+  grid-column-end: 2;
+}
+.grid-column-end-3 {
+  grid-column-end: 3;
+}
+.grid-column-end-4 {
+  grid-column-end: 4;
+}
+.grid-column-end-5 {
+  grid-column-end: 5;
+}
+.grid-column-end-6 {
+  grid-column-end: 6;
+}
+.grid-column-end-7 {
+  grid-column-end: 7;
+}
+.grid-column-end-8 {
+  grid-column-end: 8;
+}
+.grid-column-end-9 {
+  grid-column-end: 9;
+}
+.grid-column-end-10 {
+  grid-column-end: 10;
+}
+.grid-column-end-11 {
+  grid-column-end: 11;
+}
+.grid-column-end-12 {
+  grid-column-end: 12;
+}
+
+/* Now Let's Define Classes that will Specify How Wide Content Should Be
+----------------------------------------------------------------------------------------------------*/
+.grid-column-span-1 {
+  grid-column-end: span 1;
+}
+.grid-column-span-2 {
+  grid-column-end: span 2;
+}
+.grid-column-span-3 {
+  grid-column-end: span 3;
+}
+.grid-column-span-4 {
+  grid-column-end: span 4;
+}
+.grid-column-span-5 {
+  grid-column-end: span 5;
+}
+.grid-column-span-6 {
+  grid-column-end: span 6;
+}
+.grid-column-span-7 {
+  grid-column-end: span 7;
+}
+.grid-column-span-8 {
+  grid-column-end: span 8;
+}
+.grid-column-span-9 {
+  grid-column-end: span 9;
+}
+.grid-column-span-10 {
+  grid-column-end: span 10;
+}
+.grid-column-span-11 {
+  grid-column-end: span 11;
+}
+.grid-column-span-12 {
+  grid-column-end: span 12;
+}
