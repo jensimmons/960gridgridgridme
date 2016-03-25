@@ -16,7 +16,7 @@ main {
 
 /* Let's Define the Grid
 ----------------------------------------------------------------------------------------------------*/
-ul {
+.container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 20px;
