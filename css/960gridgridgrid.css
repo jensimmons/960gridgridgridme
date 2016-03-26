@@ -60,6 +60,9 @@ main {
 .grid-column-start-12 {
   grid-column-start: 12;
 }
+.grid-column-start-13 {
+  grid-column-start: 13;
+}
 
 /* Let's Define Classes that will Specify Where Content Should End
 ----------------------------------------------------------------------------------------------------*/
@@ -99,6 +102,9 @@ main {
 .grid-column-end-12 {
   grid-column-end: 12;
 }
+.grid-column-end-13 {
+  grid-column-end: 13;
+}
 
 /* Now Let's Define Classes that will Specify How Wide Content Should Be
 ----------------------------------------------------------------------------------------------------*/
@@ -137,4 +143,7 @@ main {
 }
 .grid-column-span-12 {
   grid-column-end: span 12;
+}
+.grid-column-span-13 {
+  grid-column-end: span 13;
 }
