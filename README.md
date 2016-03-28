@@ -1,2 +1,2 @@
 # The 960 Grid Grid Grid
-# Coming Soon
+a silly project from someone who is starting to hate 12-column grid frameworks
