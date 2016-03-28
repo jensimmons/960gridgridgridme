@@ -147,3 +147,31 @@ main {
 .grid-column-span-13 {
   grid-column-end: span 13;
 }
+
+
+
+/* Now Let's Define Classes that will Specify How Wide Content Should Be
+----------------------------------------------------------------------------------------------------*/
+/* Here, for example, is how to use this framework:
+  
+If you want to place an article from line 4 to line 8, you'd put these classes into the HTML:
+  
+  <article class="grid-column-start-4 grid-column-end-8">...your article...</article>  
+
+If you didn't use this amazing tool, you would instead write:
+
+  <article>...your article...</article>  
+    
+  article {
+    grid-column-start: 4;
+    grid-column-end: 8;
+  }
+  
+That's too hard! And then when you redesigned, you could just change the CSS. You wouldn't have to completely redo all the HTML! What??
+
+
+Plus, once the responsive version of 960 Grid Grid Grid comes out (coming soon!) you'll enjoy marking up your HTML like this:
+
+<article class="smphone-grid-column-start-1 smphone-grid-column-end-2 bgphone-grid-column-start-2 bgphone-grid-column-end-4 tablet-grid-column-start-3 tablet-grid-column-end-7 bg-tablet-grid-column-start-4 bgtablet-grid-column-end-8 laptop-grid-column-start-4 laptop-grid-column-end-8 27inchiMac-grid-column-start-3 27inchiMac-grid-column-end-13">...your article...</article>  
+
+
