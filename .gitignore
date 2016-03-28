@@ -20,7 +20,6 @@ progress/fonts/*
 *.jar
 *.rar
 *.tar
-*.zip
 *.tgz
 
 # Logs and databases #
@@ -32,7 +31,8 @@ progress/fonts/*
 ######################
 .DS_Store*
 ehthumbs.db
-Icon
+Icon
+
 Thumbs.db
 ._*
 
