@@ -149,11 +149,10 @@ main {
 
 
 
-/* Now Let's Define Classes that will Specify How Wide Content Should Be
+/* Here is how to use this framework:
 ----------------------------------------------------------------------------------------------------*/
-/* Here, for example, is how to use this framework:
   
-If you want to place an article from line 4 to line 8, you'd put these classes into the HTML:
+If you want to place an article from line 4 to line 8, you put these classes into the HTML:
   
   <article class="grid-column-start-4 grid-column-end-8">...your article...</article>  
 
